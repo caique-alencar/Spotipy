@@ -9,7 +9,7 @@ spotify_credentials = {}<br>
 spotify_credentials['username'] = 'DIGITE AQUI SEU URI'<br>
 spotify_credentials['client_id'] = 'DIGITE AQUI SEU CLIENT'<br>
 spotify_credentials['client_secret'] = 'DIGITE AQUI SEU CLIENT SECRET'<br>
-spotify_credentials['redirect_uri'] = 'http://localhost:8000'<br>
+spotify_credentials['redirect_uri'] = 'http://localhost:8000/'<br>
 spotify_credentials['scope'] = 'playlist-modify-public'<br>
 with open('credenciais_spotify.json', 'w') as secret_info:<br>
   json.dump(spotify_credentials, secret_info, indent=4, sort_keys=True)<br></code></pre>
